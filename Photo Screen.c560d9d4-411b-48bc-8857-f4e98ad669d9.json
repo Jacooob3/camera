@@ -1,4 +1,5 @@
 {
+    "id": "c560d9d4-411b-48bc-8857-f4e98ad669d9",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -30,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(41, 40, 40, 1)"
+            "backgroundColor": "rgba(208, 2, 27, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -44,7 +45,7 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(41, 40, 40, 1)"
+        "BackgroundColor": "rgba(208, 2, 27, 1)"
     },
     "children": [
         {
@@ -540,7 +541,6 @@
             "name": "camera"
         }
     ],
-    "id": "c560d9d4-411b-48bc-8857-f4e98ad669d9",
     "thunkableVersion": 443,
     "name": "Photo Screen"
 }
