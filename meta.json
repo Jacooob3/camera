@@ -59,14 +59,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -173,7 +173,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -222,7 +222,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -250,7 +250,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "b7378a2e-96ac-45f1-9ef9-49feeb82fc16": {
+                    "scope": "APP",
+                    "name": "voice",
+                    "screenId": "c560d9d4-411b-48bc-8857-f4e98ad669d9"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
